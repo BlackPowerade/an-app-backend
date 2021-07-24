@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "scripts": {
+    "knex-seed": "npx knex seed:run",
+    "start": "npm run knex-seed && node ./server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "~4.16.1",
+    "knex": "^0.95.6",
+    "pg": "^8.6.0"
+  }
+}
